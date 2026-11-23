@@ -7,9 +7,15 @@ answers to the written exercises. Use the chapter guide to find the student
 starter, then consult the executable reference after attempting the homework.
 Appendix A includes optional evaluation calculations.
 
+## November 2026 first edition
+
+Use the [fixed first-edition snapshot](https://github.com/foundation-books/mathematics-in-modern-llms-code/tree/60aed03f49735f6d9baefaf067b778e684c757d3)
+to download the files. In a clone of this repository, run
+`git checkout --detach 60aed03f49735f6d9baefaf067b778e684c757d3` before setup.
+
 ## Setup
 
-Use Python 3.10 or later. Run the commands in this guide and in the chapter
+Python 3.10 is the minimum. Run the commands in this guide and in the chapter
 guides from the companion repository root. In the manuscript checkout, enter
 the companion directory with `cd code` first.
 
@@ -20,10 +26,16 @@ python3 -m pip install -r requirements-dev.txt
 python3 check.py
 ```
 
-The shared environment pins SymPy 1.13.3, mpmath 1.3.0, and pytest 8.3.4.
+The first-edition checks used Python 3.12.3 with SymPy 1.13.3, mpmath 1.3.0,
+and pytest 8.3.4.
 Use `requirements.txt` if you only need to run examples. The examples use
 small CPU fixtures and run offline after setup. Keep Python assertions
 enabled when running the checks.
+
+To start Chapter 1, run `python3 chapter_language_modeling/symbolic_warmup.py`.
+It prints `Matrix([[-1/4], [1/4]])`. The chapter guides identify the assignment
+inputs and starter files, optional helpers and extensions, and completed
+references.
 
 ## Run the checks
 
