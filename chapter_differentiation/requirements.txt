@@ -1,0 +1,3 @@
+sympy==1.13.3
+# Pinned for the optional historical precision extension.
+mpmath==1.3.0

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Language Modeling as Probability and Compression",
+      "directory": "chapter_language_modeling",
+      "starter": "ch01_homework_starter.py",
+      "references": [
+        "symbolic_warmup.py",
+        "ch01_examples.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 2,
+      "title": "Matrix Derivatives and Gradient Flow",
+      "directory": "chapter_differentiation",
+      "starter": "ch03_sympy_homework.py",
+      "references": [
+        "ch03_instructor_checks.py"
+      ],
+      "tests": null
+    },
+    {
+      "number": 3,
+      "title": "Tokens, Embeddings, and Positional Geometry",
+      "directory": "chapter_tokens_embeddings",
+      "starter": "homework_starter.py",
+      "references": [
+        "symbolic_checks.py"
+      ],
+      "tests": null
+    },
+    {
+      "number": 4,
+      "title": "Softmax Attention: Retrieval and Optimization",
+      "directory": "chapter_softmax_attention",
+      "starter": "student_setup.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 5,
+      "title": "The Mathematics of Efficient Attention",
+      "directory": "chapter_efficient_execution",
+      "starter": "homework_starter.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "pytest"
+    },
+    {
+      "number": 6,
+      "title": "Sharing and Compressing Attention State",
+      "directory": "chapter_attention_state",
+      "starter": "fixture.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 7,
+      "title": "Sparse and Hierarchical Attention for Long Contexts",
+      "directory": "chapter_sparse_hierarchical_attention",
+      "starter": "student_setup.py",
+      "references": [
+        "homework_reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 8,
+      "title": "Linear Attention and Recurrent State-Space Models",
+      "directory": "chapter_linear_attention_ssm",
+      "starter": "student_setup.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 9,
+      "title": "Delta Rules, Gated Memory, and Hybrid Sequence Models",
+      "directory": "chapter_delta_memory",
+      "starter": "student_setup.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 10,
+      "title": "Gates, Normalization, and Activation Control",
+      "directory": "chapter_gates_normalization",
+      "starter": "homework_starter.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": null
+    },
+    {
+      "number": 11,
+      "title": "Learning Across Depth: Residuals and Hyper-Connections",
+      "directory": "chapter_learning_depth",
+      "starter": "homework_starter.py",
+      "references": [
+        "chapter11_fixture.py",
+        "reference.py"
+      ],
+      "tests": null
+    },
+    {
+      "number": 12,
+      "title": "Mixture-of-Experts and Balanced Routing",
+      "directory": "chapter_moe_routing",
+      "starter": "expansion_student.py",
+      "references": [
+        "reference.py",
+        "student_setup.py",
+        "expansion_reference.py",
+        "extensions_reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 13,
+      "title": "Conditional Memory and Lookup-Based Capacity",
+      "directory": "chapter_conditional_memory",
+      "starter": "homework_starter.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 14,
+      "title": "Optimization from AdamW to Muon",
+      "directory": "chapter_optimization",
+      "starter": "expansion_student.py",
+      "references": [
+        "reference.py",
+        "homework_starter.py",
+        "expansion_reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 15,
+      "title": "Scaling Laws, Data Mixtures, and Compute Allocation",
+      "directory": "chapter_scaling_allocation",
+      "starter": "expansion_student.py",
+      "references": [
+        "reference.py",
+        "homework_student.py",
+        "expansion_reference.py"
+      ],
+      "tests": "pytest"
+    },
+    {
+      "number": 16,
+      "title": "Low-Precision Arithmetic and Quantization-Aware Training",
+      "directory": "chapter_low_precision",
+      "starter": "homework_student.py",
+      "references": [
+        "fixture_checks.py",
+        "reference.py",
+        "extensions_reference.py"
+      ],
+      "tests": "pytest"
+    },
+    {
+      "number": 17,
+      "title": "Post-Training: Adaptation, Distillation, and Preferences",
+      "directory": "chapter_adaptation_transfer",
+      "starter": "homework_starter.py",
+      "references": [
+        "homework_reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 18,
+      "title": "Reinforcement Learning for Reasoning and Agents",
+      "directory": "chapter_reinforcement_learning",
+      "starter": "expansion_student.py",
+      "references": [
+        "reference.py",
+        "homework_student.py",
+        "expansion_reference.py"
+      ],
+      "tests": "unittest"
+    },
+    {
+      "number": 19,
+      "title": "Sampling, Multi-Token Prediction, and Speculative Decoding",
+      "directory": "chapter_speculative_decoding",
+      "starter": "homework_starter.py",
+      "references": [
+        "reference.py",
+        "expansion_student.py",
+        "expansion_reference.py"
+      ],
+      "tests": "pytest"
+    },
+    {
+      "number": 20,
+      "title": "Discrete Diffusion and Parallel Text Generation",
+      "directory": "chapter_discrete_diffusion",
+      "starter": "homework_starter.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    }
+  ],
+  "appendices": [
+    {
+      "number": "A",
+      "title": "Mathematical Tools for Model Evaluation",
+      "directory": "appendix_model_evaluation",
+      "starter": "homework_starter.py",
+      "references": [
+        "reference.py"
+      ],
+      "tests": "unittest"
+    }
+  ]
+}
